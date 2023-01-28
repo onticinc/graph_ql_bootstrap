@@ -1,0 +1,33 @@
+{
+  "name": "graph_ql_bootstrap",
+  "version": "1.0.0",
+  "description": "Learning Express Graph QL",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onticinc/graph_ql_bootstrap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onticinc/graph_ql_bootstrap/issues"
+  },
+  "homepage": "https://github.com/onticinc/graph_ql_bootstrap#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.6.0",
+    "mongoose": "^6.9.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "nodeman": "^1.1.2"
+  }
+}
